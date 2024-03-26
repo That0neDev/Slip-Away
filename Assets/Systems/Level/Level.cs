@@ -5,11 +5,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Level : MonoBehaviour
 {
     [SerializeField] GameObject playerPrefab;
-    [SerializeField] Transform spawnPos;
+    [SerializeField] Color levelColor;
+    [SerializeField] float camSize;
+
     private Transform playerInstance;
     private CinemachineVirtualCamera virtualCamera;
 
@@ -17,14 +20,12 @@ public class Level : MonoBehaviour
     {
         playerInstance = Instantiate(playerPrefab).transform;
         playerInstance.SetParent(transform, false);
-        playerInstance.position = spawnPos.position;
+        playerInstance.position = FindAnyObjectByType<Spawner>().transform.position;
         virtualCamera.Follow = playerInstance;
     }
     public void OnStart()
     {
-        print("Started");
         Spawn();
-        UITransition.FinishTransition();
     }
     public void OnDeath()
     {
@@ -33,14 +34,13 @@ public class Level : MonoBehaviour
     }
     public void OnWin()
     {
-        int nextLevel = SceneManager.GetActiveScene().buildIndex + 1;
-        SaveData.SaveLevel(nextLevel);
-        LevelLoader.LoadLevel(nextLevel);
+        FindFirstObjectByType<GameUI>().FinishLevel();
     }
 
     private void OnEnable()
     {
         virtualCamera = FindAnyObjectByType<CinemachineVirtualCamera>();
+        virtualCamera.m_Lens.OrthographicSize = camSize;
         Spawn();
     }
 }

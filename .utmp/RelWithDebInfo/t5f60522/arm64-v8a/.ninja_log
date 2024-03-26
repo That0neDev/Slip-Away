@@ -1,0 +1,21 @@
+# ninja log v5
+175	3457	7319687454138584	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	6d70a0e5c2d9896a
+3459	7007	7319687485351648	C:/Users/kaane/Desktop/Projects/Slip Away/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/t5f60522/obj/arm64-v8a/libswappywrapper.so	f720943cc067bb0
+1	7866	7319687506160537	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	45a05e91b00173d2
+91	6972	7319687487467046	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	20ff032e6dc6808a
+49	7007	7319687495080472	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	44566e4664cc7b18
+75	6997	7319687488115912	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	2f9c07358c028c6b
+166	7001	7319687493420954	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	722d3cbf2307aaba
+68	7002	7319687491604869	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	b5b9f3380da9db74
+83	7664	7319687503558361	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	b6ffe1e3685db524
+7866	8046	7319687507651701	C:/Users/kaane/Desktop/Projects/Slip Away/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/t5f60522/obj/arm64-v8a/libgame.so	76d5ba1ee7c4c699
+34	168	7319694967057714	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	6d70a0e5c2d9896a
+168	341	7319694968279726	C:/Users/kaane/Desktop/Projects/Slip Away/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/t5f60522/obj/arm64-v8a/libswappywrapper.so	f720943cc067bb0
+8	831	7319694973633667	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	b5b9f3380da9db74
+22	845	7319694973800999	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	20ff032e6dc6808a
+28	890	7319694974223720	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	2f9c07358c028c6b
+18	946	7319694974755168	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	722d3cbf2307aaba
+12	993	7319694975284406	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	44566e4664cc7b18
+15	1183	7319694977189983	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	b6ffe1e3685db524
+3	1257	7319694977909030	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	45a05e91b00173d2
+1258	1385	7319694978822623	C:/Users/kaane/Desktop/Projects/Slip Away/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/t5f60522/obj/arm64-v8a/libgame.so	76d5ba1ee7c4c699

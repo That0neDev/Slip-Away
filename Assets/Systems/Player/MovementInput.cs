@@ -21,8 +21,6 @@ public class MovementInput : MonoBehaviour
 
     private void SetTap2(Vector2 input) 
     {
-        print(tapPos1);
-        print(tapPos2);
         tapPos2 = input;
         inputCompleted.Invoke(GetInput());
     }

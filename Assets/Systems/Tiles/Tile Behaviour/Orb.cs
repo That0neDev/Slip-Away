@@ -31,6 +31,7 @@ namespace GameTiles
         public Vector2? Trigger()
         {
             Destroy(gameObject);
+            SaveHandler.MoneyData.AddCash(orbWhenHit);
             return Vector2.zero;
         }
     }
